@@ -1,0 +1,91 @@
+body {
+  background-color: #f6f7fb;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.metric-card {
+  background-color: #f0f3ff;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.metric-label {
+  display: block;
+  font-size: 0.8rem;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.metric-value {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1b3a57;
+}
+
+.invoice-list {
+  max-height: 18rem;
+  overflow-y: auto;
+}
+
+.invoice-list .list-group-item {
+  cursor: pointer;
+}
+
+.invoice-list .list-group-item.active {
+  background: linear-gradient(120deg, #4b6cb7, #182848);
+  border-color: #182848;
+}
+
+#invoiceDetails[data-hidden="true"] {
+  display: none;
+}
+
+.chat-window {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  background: #ffffff;
+}
+
+.chat-window .message {
+  margin-bottom: 0.75rem;
+  font-size: 0.9rem;
+}
+
+.chat-window .message.user {
+  text-align: right;
+  color: #0d6efd;
+}
+
+.chat-window .message.agent {
+  text-align: left;
+  color: #495057;
+}
+
+.card {
+  border: none;
+}
+
+.card-header {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.table thead th {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #6c757d;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
